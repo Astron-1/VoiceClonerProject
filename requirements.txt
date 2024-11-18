@@ -1,10 +1,15 @@
-TTS==0.22.0
-torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
-numpy==1.22.0
-transformers==4.46.2
+# API Dependencies
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
+
+# Core ML Dependencies
+torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+numpy==1.22.0
+transformers==4.46.2
+TTS==0.22.0
+
+# TTS Dependencies
 coqpit==0.0.17
 trainer==0.0.36
 encodec==0.1.1
@@ -14,3 +19,28 @@ pandas==1.5.3
 unidecode==1.3.8
 pypinyin==0.53.0
 gruut==2.2.3
+
+# Additional Language Support
+anyascii==0.3.2
+bangla==0.0.2
+bnnumerizer==0.0.2
+bnunicodenormalizer==0.1.7
+dateparser==1.1.8
+docopt==0.6.2
+g2pkk==0.1.2
+gruut-ipa==0.13.0
+gruut_lang_de==2.0.1
+gruut_lang_en==2.0.1
+gruut_lang_es==2.0.1
+gruut_lang_fr==2.0.2
+hangul-romanize==0.1.0
+jamo==0.4.1
+jsonlines==1.2.0
+networkx==2.8.8
+num2words==0.5.13
+pynndescent==0.5.13
+pysbd==0.3.4
+python-crfsuite==0.9.11
+sudachidict-core==20241021
+sudachipy==0.6.8
+umap-learn==0.5.7
